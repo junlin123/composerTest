@@ -1,0 +1,21 @@
+{
+    "name": "gjltest/composertest",
+    "description": "a test composer library ",
+    "authors": [
+        {
+        "name": "tyCoder"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ty\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    }
+}

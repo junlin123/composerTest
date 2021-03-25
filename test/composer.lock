@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0a3a1bf1ab7ca05fd1a8d7a6ae8fc3d4",
+    "packages": [
+        {
+            "name": "gjltest/composertest",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/junlin123/composerTest.git",
+                "reference": "be03b297f119489a64ee407e4f487c22f5753530"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/junlin123/composerTest/zipball/be03b297f119489a64ee407e4f487c22f5753530",
+                "reference": "be03b297f119489a64ee407e4f487c22f5753530",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ty\\": "src/"
+                },
+                "files": [
+                    "src/function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tyCoder"
+                }
+            ],
+            "description": "a test composer library ",
+            "support": {
+                "issues": "https://github.com/junlin123/composerTest/issues",
+                "source": "https://github.com/junlin123/composerTest/tree/v1.0.1"
+            },
+            "time": "2021-03-24T06:48:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
