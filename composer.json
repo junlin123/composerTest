@@ -3,12 +3,12 @@
     "description": "a test composer library ",
     "authors": [
         {
-        "name": "tyCoder"
+        "name": "gjltest"
         }
     ],
     "license": "MIT",
     "require": {
-        "php": ">=5.4"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
@@ -17,5 +17,11 @@
         "files": [
             "src/function.php"
         ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
     }
 }
